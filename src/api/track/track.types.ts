@@ -139,4 +139,7 @@ export interface Track {
     };
     url: string;
     wiki?: Wiki;
+    '@attr'?: {
+        nowplaying: string;
+    };
 }
