@@ -1,11 +1,11 @@
 {
-    "name": "@imikailoby/lastfm-ts",
+    "name": "@petitstrawberry/lastfm-ts",
     "version": "2.0.0",
     "description": "A minimalistic TypeScript-based client for Last.fm API 2.0",
     "author": "Mikhail Prosmitskiy",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/imikailoby/lastfm-ts.git"
+        "url": "git+https://github.com/petitstrawberry/lastfm-ts.git"
     },
     "main": "dist/index.min.js",
     "types": "dist/index.min.d.js",
