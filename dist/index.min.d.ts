@@ -196,9 +196,6 @@ interface Track {
     };
     url: string;
     wiki?: Wiki;
-    "@attr"?: {
-        nowplaying: string;
-    };
 }
 interface ArtistGetCorrectionParams {
     artist: string;
@@ -589,6 +586,9 @@ interface UserGetRecentTracksResponseRegular extends BaseUserGetRecentTracksResp
         };
         date: UtcDate;
         image: Image[];
+        "@attr"?: {
+            nowplaying: string;
+        };
     })[];
 }
 interface UserGetRecentTracksResponseExtended extends BaseUserGetRecentTracksResponse {
