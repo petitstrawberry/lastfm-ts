@@ -125,6 +125,9 @@ interface UserGetRecentTracksResponseRegular extends BaseUserGetRecentTracksResp
         };
         date: UtcDate;
         image: Image[];
+        '@attr'?: {
+            nowplaying: string;
+        };
     })[];
 }
 
